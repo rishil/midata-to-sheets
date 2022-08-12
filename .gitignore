@@ -5,6 +5,12 @@
 *.so
 *.dylib
 
+*.csv
+credentials.json
+token.json
+spreadsheetConfig.json
+history.json
+
 # Test binary, built with `go test -c`
 *.test
 
