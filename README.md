@@ -4,8 +4,8 @@ This program sources and sends UK bank [**midata**](https://www.hsbc.co.uk/curre
 
 ## Prerequisites
 
-- Export MiData in .CSV format to `/midata`
-- Paste your Google credentials file (`credentials.json`) in `data`
+- Export midata in .CSV format to `data/midata`
+- Paste your Google credentials file (`credentials.json`) into `data`
 - Create a file called `spreadsheetConfig.json`:
   - Define the object as follows:
   ```javascript
@@ -14,4 +14,6 @@ This program sources and sends UK bank [**midata**](https://www.hsbc.co.uk/curre
 
 ## Execution
 
-`go run main.go`
+```properties
+go run main.go
+```
