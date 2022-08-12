@@ -1,4 +1,4 @@
-# Personal Finance
+# Midata to Sheets
 
 This program sources and sends UK bank [**midata**](https://www.hsbc.co.uk/current-accounts/midata-faqs/) from a directory straight to Google Sheets for further processing.
 
@@ -14,4 +14,4 @@ This program sources and sends UK bank [**midata**](https://www.hsbc.co.uk/curre
 
 ## Execution
 
-- `go run main.go`
+`go run main.go`
